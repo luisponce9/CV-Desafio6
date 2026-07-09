@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid py-2" style="padding-left:2.5%">
+            <!-- Navbar brand -->
+            <a class="navbar-brand" href="./index.html">
+                <p class="h2 fw-bold mb-0">Luis Ponce</p>
+            </a>
+            <!-- Navbar collapse -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto fs-5">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Educación</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Experiencia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./portafolio.html">Portafolio</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Header del portafolio-->
+    <header class="bg-light py-5">
+        <div class="container-fluid pb-3">
+            <h1 class="mb-2">Mis trabajos</h1>
+            <p class="text-secondary mb-0">Ejercicios y proyectos realizados durante el curso de desarrollo web, con su
+                repositorio correspondiente en GitHub.</p>
+        </div>
+    </header>
+
+    <!--Sección con los trabajos-->
+    <section id="trabajos" class="container-fluid pt-5 pb-4 bg-secondary">
+        <div class="row g-4 mb-4">
+            <div class="col-md-6">
+                <div class="card h-100">
+                    <img src="assets/img/portafolio1.png" class="card-img-top" alt="Captura del desafio 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Desafio 1</h5>
+                        <p class="card-text">Curriculum Vitae + Portafolio realizado usando solo HTML.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card h-100">
+                    <img src="assets/img/portafolio2.png" class="card-img-top" alt="Captura del desafio 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Desafio 2</h5>
+                        <p class="card-text">Página a elección usando HTML y CSS, en este caso un showcase de álbumes de la banda twenty one pilots.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row g-4 mb-4">
+            <div class="col-md-6">
+                <div class="card h-100">
+                    <img src="assets/img/portafolio3.png" class="card-img-top" alt="Captura del desafio 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Desafio 3</h5>
+                        <p class="card-text">Producción en base a una maqueta, utilizando HTML, CSS y Flexbox.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card h-100">
+                    <img src="assets/img/portafolio4.png" class="card-img-top" alt="Captura del desafio 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Desafio 4</h5>
+                        <p class="card-text">Producción en base a una maqueta, utilizando HTML, CSS, Flexbox y Bootstrap.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row g-4 mb-4">
+            <div class="col-md-6">
+                <div class="card h-100">
+                    <img src="assets/img/portafolio5.png" class="card-img-top" alt="Captura del desafio 5">
+                    <div class="card-body">
+                        <h5 class="card-title">Desafio 5</h5>
+                        <p class="card-text">Curriculum Vitae realizado editando un modelo subido en GitHub, utilizando HTML, CSS, Flexbox y Bootstrap.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card h-100">
+                    <img src="assets/img/portafolio6.png" class="card-img-top" alt="Captura del desafio 6">
+                    <div class="card-body">
+                        <h5 class="card-title">Desafio 6</h5>
+                        <p class="card-text">Curriculum Vitae + Portafolio realizado usando todo lo aprendido.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="bg-dark text-center text-light p-4">
+        <p class="mb-0">Correo electrónico: lapfgsl@gmail.com
+            | Link a mi GitHub: <a href="https://github.com/luisponce9">https://github.com/luisponce9</a></p>
+        <p class="mb-0">Luis Ponce 2026. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
